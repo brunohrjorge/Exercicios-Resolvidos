@@ -1,5 +1,12 @@
 #Exercício 7
+"""Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média"""
 
-num= int(input("Digite um valor: "))
+soma= 0
 
-print(f"o dobro de {num} é {num*2}, seu triplo é {num*3} e sua raiz quadrada é {num**0.5}")
+for i in range(2):
+    nota= float(input("digite sua nota: "))
+    soma += nota
+
+media= soma/2
+
+print(f"a sua media foi: {media}")
